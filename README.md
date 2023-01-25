@@ -20,55 +20,40 @@ CRNN, ClovaAI, Preprocessing
     </thead>
     <tbody>
         <tr>
-            <td rowspan=1>Preprocessing</td>
+            <td rowspan=2>preprocessing</td>
             <td>
-                <a href="https://github.com/BBaekdabang/SentenceType_Classification/blob/main/k-fold/Stratified%20K-Fold.ipynb">Stratified K-Fold.ipynb</a>
+                <a href="https://github.com/BBaekdabang/SentenceType_Classification/blob/main/k-fold/Stratified%20K-Fold.ipynb">preprocesiing.ipynb</a>
             </td>
-            <td> Startified K-Fold </td>
-        </tr>
-        <tr>
-            <td rowspan=3>Train</td>
-            <td>
-                <a href="https://github.com/BBaekdabang/SentenceType_Classification/blob/main/BERT/bert.ipynb">bert.ipynb</a>     
-            <td> BERT/RoBERTa/ELECTRA </td>
+            <td> Binarization, Dialtion, Erosion </td>
         </tr>
         <tr>
             <td>
-                <a href="https://github.com/BBaekdabang/SentenceType_Classification/blob/main/T5/t5_train.py">t5_train.py</a>
-            <td> T5 </td>
+                <a href="https://github.com/BBaekdabang/SentenceType_Classification/blob/main/k-fold/Stratified%20K-Fold.ipynb">SuperResolution.ipynb</a>
+            </td>
+            <td> Super Resolution </td>
+        </tr>
+        <tr>
+            <td rowspan=2>train</td>
+            <td>
+                <a href="https://github.com/BBaekdabang/SentenceType_Classification/blob/main/BERT/bert.ipynb">train.py</a>     
+            <td> ClovaAI </td>
         </tr>
         <tr>
             <td>
-                <a href="https://github.com/BBaekdabang/SentenceType_Classification/blob/main/MLP/mlp_train.py">mlp_train.py</a>
-            <td> MLP </td>
+                <a href="https://github.com/BBaekdabang/SentenceType_Classification/blob/main/T5/t5_train.py">baseline_train.ipynb</a>
+            <td> DACON baseline </td>
         </tr>
         <tr>
-            <td rowspan = 3>Evaluate</td>
+            <td rowspan = 2>evaluate</td>
             <td>
-                <a href="https://github.com/BBaekdabang/EmotionClassification/blob/main/Inference.ipynb">Inference.ipynb</a>     
-            <td> BERT/RoBERTa/ELECTRA </td>
+                <a href="https://github.com/BBaekdabang/EmotionClassification/blob/main/Inference.ipynb">Inference.py</a>     
+            <td> ClovaAI </td>
         <tr>
             <td>
-                <a href="https://github.com/BBaekdabang/SentenceType_Classification/blob/main/T5/t5_evaluate.py">t5_evaluate.py</a>
-            <td> T5 </td>
+                <a href="https://github.com/BBaekdabang/SentenceType_Classification/blob/main/T5/t5_evaluate.py">baseline_evaluate.ipynb</a>
+            <td> DACON baseline </td>
         </tr>
-        <tr>
-            <td>
-                <a href="https://github.com/BBaekdabang/SentenceType_Classification/blob/main/MLP/mlp_evaluate.py">mlp_evaluate.py</a>
-            <td> MLP </td>
-        </tr>
-        </tr>        
-        <tr>
-            <td rowspan = 2>Ensemble</td>       
-            <td>
-                <a href="https://github.com/BBaekdabang/SentenceType_Classification/blob/main/ensemble/hardvoting.py">hardvoting.py</a>
-            <td> Hard Voting</td>
-        </tr>
-        <tr>
-            <td>
-                <a href="https://github.com/BBaekdabang/SentenceType_Classification/blob/main/ensemble/softvoting.py">softvoting.py</a>
-            <td> Soft Voting</td>
-        </tr>
+
 
    </tbody>
 </table>
@@ -95,7 +80,7 @@ CRNN, ClovaAI, Preprocessing
     --image_folder ./test/ \
     --log_filename ./infe.txt \ #Inference 결과값 저장되는 파일
     --saved_model ./best_accuracy.pth
-    
+ 
 ## 다. Preprocessing
 
 ### ImageBinarization
@@ -104,7 +89,28 @@ CRNN, ClovaAI, Preprocessing
 
 ### SuperResolution
 
-<img width="1000" img height="250" src="https://user-images.githubusercontent.com/113493692/213395275-e96b4dfd-b8a9-430b-8cd7-69beead9331e.png">
+<img width="1000" img height="220" src="https://user-images.githubusercontent.com/113493692/213395275-e96b4dfd-b8a9-430b-8cd7-69beead9331e.png">
+
+### Dialation
+
+<img width="500" img height="250" src="https://user-images.githubusercontent.com/113493692/213412756-1dfbeb0c-d89c-45f0-aeb2-1906c43d790e.png">
+
+### Erosion
+
+<img width="500" img height="250" src="https://user-images.githubusercontent.com/113493692/213412861-963a220a-7c57-408f-a944-addf45034f1e.png">
 
 ---
 
+## 라. Results
+
+- ClovaAI (TPS / VGG / None / Attention)
+
+<img width="800" img height="600" src="https://user-images.githubusercontent.com/113493692/214503742-a3b7dec4-1899-4130-82b2-0fc5523fe5fa.png">
+
+## 마. Reference
+
+[1] [ClovaAI](https://github.com/clovaai/deep-text-recognition-benchmark) : What Is Wrong With Scene Text Recognition Model Comparisons? Dataset and Model Analysis
+
+[2] [SuperResolution](https://github.com/JingyunLiang/SwinIR) : SwinIR: Image Restoration Using Swin Transformer
+
+[3] [DACON](https://dacon.io/competitions/official/236042/codeshare/7345?page=1&dtype=recent) : [Baseline] CRNN(Resnet + RNN) + CTC Loss
