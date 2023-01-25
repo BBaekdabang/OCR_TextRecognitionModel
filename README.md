@@ -40,7 +40,7 @@ CRNN, ClovaAI, Preprocessing
         </tr>
         <tr>
             <td>
-                <a href="https://github.com/BBaekdabang/SentenceType_Classification/blob/main/T5/t5_train.py">baseline_train.ipynb</a>
+                <a href="https://github.com/BBaekdabang/OCR_TextRecognitionModel/blob/main/baseline.ipynb">baseline.ipynb</a>
             <td> DACON baseline </td>
         </tr>
         <tr>
