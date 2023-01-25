@@ -44,14 +44,11 @@ CRNN, ClovaAI, Preprocessing
             <td> DACON baseline </td>
         </tr>
         <tr>
-            <td rowspan = 2>evaluate</td>
+            <td rowspan = 1>evaluate</td>
             <td>
                 <a href="https://github.com/BBaekdabang/OCR_TextRecognitionModel/blob/main/ClovaAI/inference.py">inference.py</a>     
             <td> ClovaAI </td>
         <tr>
-            <td>
-                <a href="https://github.com/BBaekdabang/SentenceType_Classification/blob/main/T5/t5_evaluate.py">baseline_evaluate.ipynb</a>
-            <td> DACON baseline </td>
         </tr>
 
 
