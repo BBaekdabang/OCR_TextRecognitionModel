@@ -46,7 +46,7 @@ CRNN, ClovaAI, Preprocessing
         <tr>
             <td rowspan = 2>evaluate</td>
             <td>
-                <a href="https://github.com/BBaekdabang/OCR_TextRecognitionModel/blob/main/ClovaAI/Inference.py">Inference.py</a>     
+                <a href="https://github.com/BBaekdabang/OCR_TextRecognitionModel/blob/main/ClovaAI/inference.py">inference.py</a>     
             <td> ClovaAI </td>
         <tr>
             <td>
