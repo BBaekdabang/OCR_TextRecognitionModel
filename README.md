@@ -75,7 +75,7 @@ CRNN, ClovaAI, Preprocessing
 
     !touch infe.txt
 
-    !CUDA_VISIBLE_DEVICE=0,1,2,3 python3 ./OCR_TextRecognitionModel/ClvoaAI/Inference.py \
+    !CUDA_VISIBLE_DEVICE=0,1,2,3 python3 ./OCR_TextRecognitionModel/ClvoaAI/inference.py \
     --Transformation TPS --FeatureExtraction ResNet --SequenceModeling BiLSTM --Prediction CTC \
     --image_folder ./test/ \
     --log_filename ./infe.txt \ #Inference 결과값 저장되는 파일
