@@ -107,7 +107,11 @@ CRNN, ClovaAI, Preprocessing
 
 <img width="800" img height="600" src="https://user-images.githubusercontent.com/113493692/214503742-a3b7dec4-1899-4130-82b2-0fc5523fe5fa.png">
 
-## 마. Reference
+## 바. Discussion
+ 
+ -
+ - 
+## 바. Reference
 
 [1] [ClovaAI](https://github.com/clovaai/deep-text-recognition-benchmark) : What Is Wrong With Scene Text Recognition Model Comparisons? Dataset and Model Analysis
 
