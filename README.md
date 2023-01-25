@@ -22,13 +22,13 @@ CRNN, ClovaAI, Preprocessing
         <tr>
             <td rowspan=2>preprocessing</td>
             <td>
-                <a href="https://github.com/BBaekdabang/OCR_TextRecognitionModel/blob/main/preprocesiing/preprocessing.ipynb">preprocesiing.ipynb</a>
+                <a href="https://github.com/BBaekdabang/OCR_TextRecognitionModel/blob/main/preprocessing/preprocessing.ipynb">preprocesiing.ipynb</a>
             </td>
             <td> Binarization, Dialtion, Erosion </td>
         </tr>
         <tr>
             <td>
-                <a href="https://github.com/BBaekdabang/OCR_TextRecognitionModel/blob/main/preprocesiing/SuperResolution.ipynb">SuperResolution.ipynb</a>
+                <a href="https://github.com/BBaekdabang/OCR_TextRecognitionModel/blob/main/preprocessing/SuperResolution.ipynb">SuperResolution.ipynb</a>
             </td>
             <td> Super Resolution </td>
         </tr>
