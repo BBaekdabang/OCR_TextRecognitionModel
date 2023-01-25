@@ -35,7 +35,7 @@ CRNN, ClovaAI, Preprocessing
         <tr>
             <td rowspan=2>train</td>
             <td>
-                <a href="https://github.com/BBaekdabang/SentenceType_Classification/blob/main/BERT/bert.ipynb">train.py</a>     
+                <a href="https://github.com/BBaekdabang/OCR_TextRecognitionModel/blob/main/ClovaAI/train.py">train.py</a>     
             <td> ClovaAI </td>
         </tr>
         <tr>
@@ -46,7 +46,7 @@ CRNN, ClovaAI, Preprocessing
         <tr>
             <td rowspan = 2>evaluate</td>
             <td>
-                <a href="https://github.com/BBaekdabang/EmotionClassification/blob/main/Inference.ipynb">Inference.py</a>     
+                <a href="https://github.com/BBaekdabang/OCR_TextRecognitionModel/blob/main/ClovaAI/Inference.py">Inference.py</a>     
             <td> ClovaAI </td>
         <tr>
             <td>
@@ -62,7 +62,7 @@ CRNN, ClovaAI, Preprocessing
 
 ## 가. Train(ClovaAI)
 
-    !CUDA_VISIBLE_DEVICES=0 python3 ./train.py \
+    !CUDA_VISIBLE_DEVICES=0 python3 ./OCR_TextRecognitionModel/ClvoaAI/train.py \
     --train_data train_lmdb \
     --valid_data val_lmdb \
     --Transformation TPS --FeatureExtraction ResNet --SequenceModeling BiLSTM --Prediction CTC \
@@ -75,7 +75,7 @@ CRNN, ClovaAI, Preprocessing
 
     !touch infe.txt
 
-    !CUDA_VISIBLE_DEVICE=0,1,2,3 python3 ./Inference.py \
+    !CUDA_VISIBLE_DEVICE=0,1,2,3 python3 ./OCR_TextRecognitionModel/ClvoaAI/Inference.py \
     --Transformation TPS --FeatureExtraction ResNet --SequenceModeling BiLSTM --Prediction CTC \
     --image_folder ./test/ \
     --log_filename ./infe.txt \ #Inference 결과값 저장되는 파일
