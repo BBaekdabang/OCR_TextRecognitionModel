@@ -24,7 +24,7 @@ CRNN, ClovaAI, Preprocessing
             <td>
                 <a href="https://github.com/BBaekdabang/OCR_TextRecognitionModel/blob/main/preprocessing/preprocessing.ipynb">preprocessing.ipynb</a>
             </td>
-            <td> Binarization, Dialtion, Erosion </td>
+            <td> Binarization, Diltion, Erosion </td>
         </tr>
         <tr>
             <td>
