@@ -88,7 +88,7 @@ CRNN, ClovaAI, Preprocessing
 
 <img width="1000" img height="220" src="https://user-images.githubusercontent.com/113493692/213395275-e96b4dfd-b8a9-430b-8cd7-69beead9331e.png">
 
-### Dialation
+### Dilation
 
 <img width="500" img height="250" src="https://user-images.githubusercontent.com/113493692/213412756-1dfbeb0c-d89c-45f0-aeb2-1906c43d790e.png">
 
